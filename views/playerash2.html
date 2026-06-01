@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/mystyls.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <title>Playeras Manga Larga</title>
+</head>
+<body>
+    <div class="barra">
+        <img src="../imagenes/corona blanca.avif">
+        <p class="pirata-one-regular titulo"><a href="../../index.html">ALT F4</a></p>
+        <img src="../imagenes/corona blanca.avif">
+    </div>
+    <div class="reloj">
+        <span id="datetime"></span>
+    </div>
+    <div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../../index.html">ALT F4</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Mujer
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../views/mujeres.html">Mujeres</a></li>
+                                <li><a class="dropdown-item" href="../views/playerasm.html">Playeras</a></li>
+                                <li><a class="dropdown-item" href="../views/pantalonesm.html">Pantalones</a></li>
+                                <li><a class="dropdown-item" href="../views/sudaderasm.html">Sudaderas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Hombre
+                            </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../views/hombres.html">Hombres</a></li>
+                                    <li><a class="dropdown-item" href="../views/playerash.html">Playeras</a></li>
+                                    <li><a class="dropdown-item" href="../views/pantalonesh.html">Pantalones</a></li>
+                                    <li><a class="dropdown-item" href="../views/sudaderas.html">Sudaderas</a></li>
+                                </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Accesorios
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../views/accesorios.html">Accesorios</a></li>
+                                <li><a class="dropdown-item" href="../views/lentes.html">Lentes</a></li>
+                                <li><a class="dropdown-item" href="../views/gorras.html">Gorras</a></li>
+                                <li><a class="dropdown-item" href="../views/pulseras.html">Pulseras</a></li>
+                                <li><a class="dropdown-item" href="../views/relojes.html">Relojes</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="d-flex align-items-center ms-auto">
+                        <a href="https://maps.app.goo.gl/ebSHo2mcpoC4YeXq6">
+                            <img class="imgnav1" src="../imagenes/ubi.png">
+                        </a>
+                        <a href="../views/iniciodesecion.html">
+                            <img class="imgnav2" src="../imagenes/cuen.png">
+                        </a>
+                        <a href="#">
+                            <img class="imgnav3" src="../imagenes/bolsa.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <button class="btn btn-secondary botonarriba"><a href="../views/playerash2.html">&#9650;</a></button>
+    <div class="card text-bg-dark">
+        <img src="../imagenes/cardpmlh.png" class="card-img imghomin">
+        <div class="card-img-overlay d-flex flex-column justify-content-end mb-5 ms-5 cardinhom">
+            <div class="text-bg-dark ps-3">
+                <h3 class="card-title">Renueva tu look con las mejores prendas.</h3>
+                <p class="card-text">Prendas par hombre al mejor ptecio y calidad.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="col">
+                <img class="imgplayerash" src="../imagenes/hombresin.jpg" alt="">
+            </div>
+            <div class="col-auto">
+                <h2 class="hofertas centro pt-5">PLAYERAS</h2>
+            </div>
+            <div class="col">
+                <img class="imgplayerash rotar" src="../imagenes/hombresin.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+            <div class="row">
+                <div class="col-4 anchoropa1">
+                    <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link text-dark bg-light border-bottom" href="#item-1h">Hombres</a>
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link text-dark ms-3 my-1" href="#item-1-1h">Playeras</a>
+                                <a class="nav-link text-dark ms-3 my-1" href="#item-1-2h">Playeras con Manga</a>
+                            </nav>
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link text-dark ms-3 my-1" href="#item-2h">Pantalones</a>
+                                <a class="nav-link text-dark ms-3 my-1" href="#item-2-1h">Pantalones</a>
+                                <a class="nav-link text-dark ms-3 my-1" href="#item-2-2h">Shorts</a>
+                                <a class="nav-link text-dark ms-3 my-1" href="#item-2-3h">Pants</a>
+                            </nav>
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link text-dark ms-3 my-1" href="#item-3h">Sudaderas</a>
+                                <a class="nav-link text-dark ms-3 my-1" href="#item-3-1h">Sudaderas con Gorro</a>
+                                <a class="nav-link text-dark ms-3 my-1" href="#item-3-2h">Sudaderas sin Gorro</a>
+                            </nav>
+                        </nav>
+                    </nav>
+                </div>
+                <div class="col-8 anchoropa2">
+                    <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+                        <div id="item-1-2h" class="d-flex flex-wrap gap-0">
+                            <h3 class="w-100 text-start ps-2 mb-4">Playeras</h3>
+                            <div class="row mb-5 w-100">
+                                <div class="card-group">
+                                    <div class="card">
+                                        <img src="../imagenes/pmlh.1jpg.webp" class="card-img-top" alt="...">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title">Manga Larga As I Lay Dying</h5>
+                                            <p class="card-text small">
+                                                Estilo deportivo con efecto de capas (manga larga integrada). 
+                                                Un diseño clásico y agresivo, ideal para un look urbano y resistente.
+                                            </p>
+                                            <p class="fw-bold text-success text-center">$650.00 MXN</p>
+                                            <button class="btn btn-sm btn-outline-dark" 
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-html="true" 
+                                                    data-bs-title="Ficha Técnica" 
+                                                    data-bs-content="<ul>
+                                                                            <li>SKU:SUD-DS-ORN1</li>
+                                                                            <li>80% Algodón / 20% Poliéster</li>
+                                                                            <li>Lavar del revés en frío</li>
+                                                                        </ul>">
+                                                Detalles
+                                            </button>
+                                            <p class="mb-1 fw-bold text-center small mt-2">Selecciona talla.</p>
+                                            <div class="btn-group mb-3" role="group">
+                                                <input type="radio" class="btn-check" name="tallas-pm1" id="chpm-1" checked>
+                                                <label class="btn btn-outline-dark btn-sm" for="chpm-1">CH</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm1" id="mpm-1">
+                                                <label class="btn btn-outline-dark btn-sm" for="mpm-1">M</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm1" id="gpm-1">
+                                                <label class="btn btn-outline-dark btn-sm" for="gpm-1">G</label>
+                                            </div>
+                                            <p class="mb-1 fw-bold text-center small mt-1">Selecciona cantidad.</p>
+                                            <div class="btn-group btn-group-sm" role="group">
+                                                <button type="button" class="btn btn-outline-danger">-</button>
+                                                <button type="button" class="btn btn-outline-dark btn-static-hover">1</button>
+                                                <button type="button" class="btn btn-outline-success">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="../imagenes/pmlh2.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title">Jersey AC Milan Bwin</h5>
+                                            <p class="card-text small">
+                                                Jersey oficial de fútbol con las icónicas franjas rojas y negras. 
+                                                Una pieza clásica y auténtica para coleccionistas y amantes del deporte.
+                                            </p>
+                                            <p class="fw-bold text-success text-center">$620.00 MXN</p>
+                                            <button class="btn btn-sm btn-outline-dark" 
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-html="true" 
+                                                    data-bs-title="Ficha Técnica" 
+                                                    data-bs-content="<ul>
+                                                                            <li>SKU:SUD-TRU-LIF2</li>
+                                                                            <li>80% Algodón / 20% Poliéster</li>
+                                                                            <li>Lavar del revés en frío</li>
+                                                                        </ul>">
+                                                Detalles
+                                            </button>
+                                            <p class="mb-1 fw-bold text-center small mt-2">Selecciona talla.</p>
+                                            <div class="btn-group mb-3" role="group">
+                                                <input type="radio" class="btn-check" name="tallas-pm2" id="chpm-2" checked>
+                                                <label class="btn btn-outline-dark btn-sm" for="chpm-2">CH</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm2" id="mpm-2">
+                                                <label class="btn btn-outline-dark btn-sm" for="mpm-2">M</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm2" id="gmp-2">
+                                                <label class="btn btn-outline-dark btn-sm" for="gmp-2">G</label>
+                                            </div>
+                                            <p class="mb-1 fw-bold text-center small mt-1">Selecciona cantidad.</p>
+                                            <div class="btn-group btn-group-sm" role="group">
+                                                <button type="button" class="btn btn-outline-danger">-</button>
+                                                <button type="button" class="btn btn-outline-dark btn-static-hover">1</button>
+                                                <button type="button" class="btn btn-outline-success">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="../imagenes/pmlh3.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title">Manga Larga Wings Grey</h5>
+                                            <p class="card-text small">
+                                                Diseño urbano con estampado detallado de alas, combinando un estilo 
+                                                clásico y versátil. Prenda cómoda con mangas contrastadas.
+                                            </p>
+                                            <p class="fw-bold text-success text-center">$680.00 MXN</p>
+                                            <button class="btn btn-sm btn-outline-dark" 
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-html="true" 
+                                                    data-bs-title="Ficha Técnica" 
+                                                    data-bs-content="<ul>
+                                                                            <li>SKU:SUD-MAR-PNK3</li>
+                                                                            <li>80% Algodón / 20% Poliéster</li>
+                                                                            <li>Lavar del revés en frío</li>
+                                                                        </ul>">
+                                                Detalles
+                                            </button>
+                                            <p class="mb-1 fw-bold text-center small mt-2">Selecciona talla.</p>
+                                            <div class="btn-group mb-3" role="group">
+                                                <input type="radio" class="btn-check" name="tallas-pm3" id="chpm-3" checked>
+                                                <label class="btn btn-outline-dark btn-sm" for="chpm-3">CH</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm3" id="mpm-3">
+                                                <label class="btn btn-outline-dark btn-sm" for="mpm-3">M</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm3" id="gmp-3">
+                                                <label class="btn btn-outline-dark btn-sm" for="gmp-3">G</label>
+                                            </div>
+                                            <p class="mb-1 fw-bold text-center small mt-1">Selecciona cantidad.</p>
+                                            <div class="btn-group btn-group-sm" role="group">
+                                                <button type="button" class="btn btn-outline-danger">-</button>
+                                                <button type="button" class="btn btn-outline-dark btn-static-hover">1</button>
+                                                <button type="button" class="btn btn-outline-success">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="../imagenes/pmlh4.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title">Manga Larga Withe Rose</h5>
+                                            <p class="card-text small">
+                                                Diseño urbano con estampado detallado de alas, combinando un estilo 
+                                                clásico y versátil. Prenda cómoda con mangas contrastadas..
+                                            </p>
+                                            <p class="fw-bold text-success text-center">$640.00 MXN</p>
+                                            <button class="btn btn-sm btn-outline-dark" 
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-html="true" 
+                                                    data-bs-title="Ficha Técnica" 
+                                                    data-bs-content="<ul>
+                                                                            <li>SKU:SUD-HOR-DIE4</li>
+                                                                            <li>80% Algodón / 20% Poliéster</li>
+                                                                            <li>Lavar del revés en frío</li>
+                                                                        </ul>">
+                                                Detalles
+                                            </button>
+                                            <p class="mb-1 fw-bold text-center small mt-2">Selecciona talla.</p>
+                                            <div class="btn-group mb-3" role="group">
+                                                <input type="radio" class="btn-check" name="tallas-pm4" id="chpm-4" checked>
+                                                <label class="btn btn-outline-dark btn-sm" for="chpm-4">CH</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm4" id="mpm-4">
+                                                <label class="btn btn-outline-dark btn-sm" for="mpm-4">M</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm4" id="gmp-4">
+                                                <label class="btn btn-outline-dark btn-sm" for="gmp-4">G</label>
+                                            </div>
+                                            <p class="mb-1 fw-bold text-center small mt-1">Selecciona cantidad.</p>
+                                            <div class="btn-group btn-group-sm" role="group">
+                                                <button type="button" class="btn btn-outline-danger">-</button>
+                                                <button type="button" class="btn btn-outline-dark btn-static-hover">1</button>
+                                                <button type="button" class="btn btn-outline-success">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-5 w-100">
+                                <div class="card-group">
+                                    <div class="card">
+                                        <img src="../imagenes/pmlh5.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title">Playera Layered Tapout</h5>
+                                            <p class="card-text small">
+                                                Diseño de estética metal con tipografía gótica y aureola icónica. 
+                                                Una prenda con un estilo oscuro y definido, perfecta para el uso urbano.
+                                            </p>
+                                            <p class="fw-bold text-success text-center">$400.00 MXN</p>
+                                            <button class="btn btn-sm btn-outline-dark" 
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-html="true" 
+                                                    data-bs-title="Ficha Técnica" 
+                                                    data-bs-content="<ul>
+                                                        <li>SKU:CRU-DEF-SKL5</li>
+                                                        <li>100% Algodón</li>
+                                                        <li>Lavar del revés en frío</li>
+                                                    </ul>">
+                                                Detalles
+                                            </button>
+                                            <p class="mb-1 fw-bold text-center small mt-2">Selecciona talla.</p>
+                                            <div class="btn-group mb-3" role="group">
+                                                <input type="radio" class="btn-check" name="tallas-pm5" id="chpm-5" checked>
+                                                <label class="btn btn-outline-dark btn-sm" for="chpm-5">CH</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm5" id="mpm-5">
+                                                <label class="btn btn-outline-dark btn-sm" for="mpm-5">M</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm5" id="gmp-5">
+                                                <label class="btn btn-outline-dark btn-sm" for="gmp-5">G</label>
+                                            </div>
+                                            <p class="mb-1 fw-bold text-center small mt-1">Selecciona cantidad.</p>
+                                            <div class="btn-group btn-group-sm" role="group">
+                                                <button type="button" class="btn btn-outline-danger">-</button>
+                                                <button type="button" class="btn btn-outline-dark btn-static-hover">1</button>
+                                                <button type="button" class="btn btn-outline-success">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="../imagenes/pmlh6.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title">kPolo Pumas Clásico</h5>
+                                            <p class="card-text small">
+                                                Diseño icónico inspirado en el equipo universitario. 
+                                                Una pieza con corte clásico y el logo distintivo al frente, ideal para un estilo casual deportivo.
+                                            </p>
+                                            <p class="fw-bold text-success text-center">$670.00 MXN</p>
+                                            <button class="btn btn-sm btn-outline-dark" 
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-html="true" 
+                                                    data-bs-title="Ficha Técnica" 
+                                                    data-bs-content="<ul>
+                                                                            <li>SKU:SUD-MAR-WHB5</li>
+                                                                            <li>80% Algodón / 20% Poliéster</li>
+                                                                            <li>Lavar del revés en frío</li>
+                                                                        </ul>">
+                                                Detalles
+                                            </button>
+                                            <p class="mb-1 fw-bold text-center small mt-2">Selecciona talla.</p>
+                                            <div class="btn-group mb-3" role="group">
+                                                <input type="radio" class="btn-check" name="tallas-pm6" id="chpm-6" checked>
+                                                <label class="btn btn-outline-dark btn-sm" for="chpm-6">CH</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm6" id="mpm-6">
+                                                <label class="btn btn-outline-dark btn-sm" for="mpm-6">M</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm6" id="gmp-6">
+                                                <label class="btn btn-outline-dark btn-sm" for="gmp-6">G</label>
+                                            </div>
+                                            <p class="mb-1 fw-bold text-center small mt-1">Selecciona cantidad.</p>
+                                            <div class="btn-group btn-group-sm" role="group">
+                                                <button type="button" class="btn btn-outline-danger">-</button>
+                                                <button type="button" class="btn btn-outline-dark btn-static-hover">1</button>
+                                                <button type="button" class="btn btn-outline-success">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="../imagenes/pmlh7.avif" class="card-img-top" alt="...">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title">Manga Larga Tribal Grunge</h5>
+                                            <p class="card-text small">
+                                                Diseño audaz con gráficos tribales que envuelven la pieza. 
+                                                Una prenda esencial con estética oscura, ideal para un estilo urbano y vanguardista.
+                                            </p>
+                                            <p class="fw-bold text-success text-center">$690.00 MXN</p>
+                                            <button class="btn btn-sm btn-outline-dark" 
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-html="true" 
+                                                    data-bs-title="Ficha Técnica" 
+                                                    data-bs-content="<ul>
+                                                                            <li>SKU:SUD-MAR-DAN6</li>
+                                                                            <li>80% Algodón / 20% Poliéster</li>
+                                                                            <li>Lavar del revés en frío</li>
+                                                                        </ul>">
+                                                Detalles
+                                            </button>
+                                            <p class="mb-1 fw-bold text-center small mt-2">Selecciona talla.</p>
+                                            <div class="btn-group mb-3" role="group">
+                                                <input type="radio" class="btn-check" name="tallas-pm7" id="chpm-7" checked>
+                                                <label class="btn btn-outline-dark btn-sm" for="chpm-7">CH</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm7" id="mpm-7">
+                                                <label class="btn btn-outline-dark btn-sm" for="mpm-7">M</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm7" id="gmp-7">
+                                                <label class="btn btn-outline-dark btn-sm" for="gmp-7">G</label>
+                                            </div>
+                                            <p class="mb-1 fw-bold text-center small mt-1">Selecciona cantidad.</p>
+                                            <div class="btn-group btn-group-sm" role="group">
+                                                <button type="button" class="btn btn-outline-danger">-</button>
+                                                <button type="button" class="btn btn-outline-dark btn-static-hover">1</button>
+                                                <button type="button" class="btn btn-outline-success">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="../imagenes/pmlh8.webp" class="card-img-top" alt="...">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title">Sudadera Dark Souls Knight</h5>
+                                            <p class="card-text small">
+                                                Diseño minimalista inspirado en el oscuro universo de Dark Souls. 
+                                                Una prenda de estilo sobrio con un estampado detallado en rojo y negro.
+                                            </p>
+                                            <p class="fw-bold text-success text-center">$630.00 MXN</p>
+                                            <button class="btn btn-sm btn-outline-dark" 
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-html="true" 
+                                                    data-bs-title="Ficha Técnica" 
+                                                    data-bs-content="<ul>
+                                                                            <li>SKU:SUD-DS-KNI7</li>
+                                                                            <li>80% Algodón / 20% Poliéster</li>
+                                                                            <li>Lavar del revés en frío</li>
+                                                                        </ul>">
+                                                Detalles
+                                            </button>
+                                            <p class="mb-1 fw-bold text-center small mt-2">Selecciona talla.</p>
+                                            <div class="btn-group mb-3" role="group">
+                                                <input type="radio" class="btn-check" name="tallas-pm8" id="chpm-8" checked>
+                                                <label class="btn btn-outline-dark btn-sm" for="chpm-8">CH</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm8" id="mpm-8">
+                                                <label class="btn btn-outline-dark btn-sm" for="mpm-8">M</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm8" id="gmp-8">
+                                                <label class="btn btn-outline-dark btn-sm" for="gmp-8">G</label>
+                                            </div>
+                                            <p class="mb-1 fw-bold text-center small mt-1">Selecciona cantidad.</p>
+                                            <div class="btn-group btn-group-sm" role="group">
+                                                <button type="button" class="btn btn-outline-danger">-</button>
+                                                <button type="button" class="btn btn-outline-dark btn-static-hover">1</button>
+                                                <button type="button" class="btn btn-outline-success">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-5 w-100">
+                                <div class="card-group">
+                                    <div class="card">
+                                        <img src="../imagenes/pmlh9-jpg.webp" class="card-img-top" alt="...">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title">Sudadera Marselín White/Black</h5>
+                                            <p class="card-text small">
+                                                Diseño gráfico tipo jersey con elementos de advertencia y llamas laterales. 
+                                                Una prenda de estilo técnico, inspirada en la estética urbana contemporánea.
+                                            </p>
+                                            <p class="fw-bold text-success text-center">$660.00 MXN</p>
+                                            <button class="btn btn-sm btn-outline-dark" 
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-html="true" 
+                                                    data-bs-title="Ficha Técnica" 
+                                                    data-bs-content="<ul>
+                                                                            <li>SKU:SUD-BIO-HAZ8</li>
+                                                                            <li>80% Algodón / 20% Poliéster</li>
+                                                                            <li>Lavar del revés en frío</li>
+                                                                        </ul>">
+                                                Detalles
+                                            </button>
+                                            <p class="mb-1 fw-bold text-center small mt-2">Selecciona talla.</p>
+                                            <div class="btn-group mb-3" role="group">
+                                                <input type="radio" class="btn-check" name="tallas-pm9" id="chpm-9" checked>
+                                                <label class="btn btn-outline-dark btn-sm" for="chpm-9">CH</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm9" id="mpm-9">
+                                                <label class="btn btn-outline-dark btn-sm" for="mpm-9">M</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm9" id="gmp-9">
+                                                <label class="btn btn-outline-dark btn-sm" for="gmp-9">G</label>
+                                            </div>
+                                            <p class="mb-1 fw-bold text-center small mt-1">Selecciona cantidad.</p>
+                                            <div class="btn-group btn-group-sm" role="group">
+                                                <button type="button" class="btn btn-outline-danger">-</button>
+                                                <button type="button" class="btn btn-outline-dark btn-static-hover">1</button>
+                                                <button type="button" class="btn btn-outline-success">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="../imagenes/pmlh10.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title">Sudadera Marselín Danger Flame</h5>
+                                            <p class="card-text small">
+                                                Diseño de estilo jersey deportivo con estética rusa y detalles en llamas. 
+                                                Una pieza de diseño audaz con un corte moderno para un estilo urbano.
+                                            </p>
+                                            <p class="fw-bold text-success text-center">$410.00 MXN</p>
+                                            <button class="btn btn-sm btn-outline-dark" 
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-html="true" 
+                                                    data-bs-title="Ficha Técnica" 
+                                                    data-bs-content="<ul>
+                                                                            <li>SKU:LSL-TRI-GRU9</li>
+                                                                            <li>100% Algodón</li>
+                                                                            <li>Lavar del revés en frío</li>
+                                                                        </ul>">
+                                                Detalles
+                                            </button>
+                                            <p class="mb-1 fw-bold text-center small mt-2">Selecciona talla.</p>
+                                            <div class="btn-group mb-3" role="group">
+                                                <input type="radio" class="btn-check" name="tallas-pm10" id="chpm-10" checked>
+                                                <label class="btn btn-outline-dark btn-sm" for="chpm-10">CH</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm10" id="mpm-10">
+                                                <label class="btn btn-outline-dark btn-sm" for="mpm-10">M</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm10" id="gmp-10">
+                                                <label class="btn btn-outline-dark btn-sm" for="gmp-10">G</label>
+                                            </div>
+                                            <p class="mb-1 fw-bold text-center small mt-1">Selecciona cantidad.</p>
+                                            <div class="btn-group btn-group-sm" role="group">
+                                                <button type="button" class="btn btn-outline-danger">-</button>
+                                                <button type="button" class="btn btn-outline-dark btn-static-hover">1</button>
+                                                <button type="button" class="btn btn-outline-success">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="../imagenes/pmlh11.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title">Sudadera Dark Souls I Knight</h5>
+                                            <p class="card-text small">
+                                                Diseño minimalista inspirado en el oscuro universo de Dark Souls. 
+                                                Una prenda de estilo sobrio con un estampado detallado en blanco y negro.
+                                            </p>
+                                            <p class="fw-bold text-success text-center">$450.00 MXN</p>
+                                            <button class="btn btn-sm btn-outline-dark" 
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-html="true" 
+                                                    data-bs-title="Ficha Técnica" 
+                                                    data-bs-content="<ul>
+                                                                            <li>SKU:POL-PUM-UNM10</li>
+                                                                            <li>95% Algodón / 5% Elastano</li>
+                                                                            <li>Lavar del revés en frío</li>
+                                                                        </ul>">
+                                                Detalles
+                                            </button>
+                                            <p class="mb-1 fw-bold text-center small mt-2">Selecciona talla.</p>
+                                            <div class="btn-group mb-3" role="group">
+                                                <input type="radio" class="btn-check" name="tallas-pm11" id="chpm-11" checked>
+                                                <label class="btn btn-outline-dark btn-sm" for="chpm-11">CH</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm11" id="mpm-11">
+                                                <label class="btn btn-outline-dark btn-sm" for="mpm-11">M</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm11" id="gmp-11">
+                                                <label class="btn btn-outline-dark btn-sm" for="gmp-11">G</label>
+                                            </div>
+                                            <p class="mb-1 fw-bold text-center small mt-1">Selecciona cantidad.</p>
+                                            <div class="btn-group btn-group-sm" role="group">
+                                                <button type="button" class="btn btn-outline-danger">-</button>
+                                                <button type="button" class="btn btn-outline-dark btn-static-hover">1</button>
+                                                <button type="button" class="btn btn-outline-success">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="../imagenes/pmlh12.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title">Sudadera Bio Hazard RE: 1 (1998)</h5>
+                                            <p class="card-text small">
+                                                Gráfico inspirado en la estética de horror y ciencia ficción retro. 
+                                                Una prenda de corte oscuro, perfecta para un look urbano con influencia digital.
+                                            </p>
+                                            <p class="fw-bold text-success text-center">$430.00 MXN</p>
+                                            <button class="btn btn-sm btn-outline-dark" 
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-html="true" 
+                                                    data-bs-title="Ficha Técnica" 
+                                                    data-bs-content="<ul>
+                                                                            <li>SKU:LSL-GOT-INT11</li>
+                                                                            <li>100% Algodón</li>
+                                                                            <li>Lavar del revés en frío</li>
+                                                                        </ul>">
+                                                Detalles
+                                            </button>
+                                            <p class="mb-1 fw-bold text-center small mt-2">Selecciona talla.</p>
+                                            <div class="btn-group mb-3" role="group">
+                                                <input type="radio" class="btn-check" name="tallas-pm12" id="chpm-12" checked>
+                                                <label class="btn btn-outline-dark btn-sm" for="chpm-12">CH</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm12" id="mpm-12">
+                                                <label class="btn btn-outline-dark btn-sm" for="mpm-12">M</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm12" id="gmp-12">
+                                                <label class="btn btn-outline-dark btn-sm" for="gmp-12">G</label>
+                                            </div>
+                                            <p class="mb-1 fw-bold text-center small mt-1">Selecciona cantidad.</p>
+                                            <div class="btn-group btn-group-sm" role="group">
+                                                <button type="button" class="btn btn-outline-danger">-</button>
+                                                <button type="button" class="btn btn-outline-dark btn-static-hover">1</button>
+                                                <button type="button" class="btn btn-outline-success">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-5 w-100">
+                                <div class="card-group">
+                                    <div class="card">
+                                        <img src="../imagenes/pmlh13.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title">Sudadera Dark Souls I Duo Boss</h5>
+                                            <p class="card-text small">
+                                                Homenaje épico al icónico enfrentamiento de Ornstein y Smough. 
+                                                Una pieza de colección con estampado de alta calidad.
+                                            </p>
+                                            <p class="fw-bold text-success text-center">$440.00 MXN</p>
+                                            <button class="btn btn-sm btn-outline-dark" 
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-html="true" 
+                                                    data-bs-title="Ficha Técnica" 
+                                                    data-bs-content="<ul>
+                                                                            <li>SKU:LSL-AILD-MET12</li>
+                                                                            <li>100% Algodón</li>
+                                                                            <li>Lavar del revés en frío</li>
+                                                                        </ul>">
+                                                Detalles
+                                            </button>
+                                            <p class="mb-1 fw-bold text-center small mt-2">Selecciona talla.</p>
+                                            <div class="btn-group mb-3" role="group">
+                                                <input type="radio" class="btn-check" name="tallas-pm13" id="chpm-13" checked>
+                                                <label class="btn btn-outline-dark btn-sm" for="chpm-13">CH</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm13" id="mpm-13">
+                                                <label class="btn btn-outline-dark btn-sm" for="mpm-13">M</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm13" id="gmp-13">
+                                                <label class="btn btn-outline-dark btn-sm" for="gmp-13">G</label>
+                                            </div>
+                                            <p class="mb-1 fw-bold text-center small mt-1">Selecciona cantidad.</p>
+                                            <div class="btn-group btn-group-sm" role="group">
+                                                <button type="button" class="btn btn-outline-danger">-</button>
+                                                <button type="button" class="btn btn-outline-dark btn-static-hover">1</button>
+                                                <button type="button" class="btn btn-outline-success">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="../imagenes/pmlh14.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body d-flex flex-column mt-3">
+                                            <h5 class="card-title">Manga Larga Gothic Print Black</h5>
+                                            <p class="card-text small">
+                                                Prenda con diseño gráfico detallado y estética gótica. 
+                                                Una pieza con estilo visual complejo que aporta profundidad y carácter a tu outfit.
+                                            </p>
+                                            <p class="fw-bold text-success text-center">$390.00 MXN</p>
+                                            <button class="btn btn-sm btn-outline-dark" 
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-html="true" 
+                                                    data-bs-title="Ficha Técnica" 
+                                                    data-bs-content="<ul>
+                                                                            <li>SKU:TSH-TAP-RED13</li>
+                                                                            <li>100% Algodón</li>
+                                                                            <li>Lavar del revés en frío</li>
+                                                                        </ul>">
+                                                Detalles
+                                            </button>
+                                            <p class="mb-1 fw-bold text-center small mt-2">Selecciona talla.</p>
+                                            <div class="btn-group mb-3" role="group">
+                                                <input type="radio" class="btn-check" name="tallas-pm14" id="chpm-14" checked>
+                                                <label class="btn btn-outline-dark btn-sm" for="chpm-14">CH</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm14" id="mpm-14">
+                                                <label class="btn btn-outline-dark btn-sm" for="mpm-14">M</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm14" id="gmp-14">
+                                                <label class="btn btn-outline-dark btn-sm" for="gmp-14">G</label>
+                                            </div>
+                                            <p class="mb-1 fw-bold text-center small mt-1">Selecciona cantidad.</p>
+                                            <div class="btn-group btn-group-sm" role="group">
+                                                <button type="button" class="btn btn-outline-danger">-</button>
+                                                <button type="button" class="btn btn-outline-dark btn-static-hover">1</button>
+                                                <button type="button" class="btn btn-outline-success">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="../imagenes/pmlh15.jpeg" class="card-img-top" alt="...">
+                                        <div class="card-body d-flex flex-column mt-3">
+                                            <h5 class="card-title">Sudadera Marselín Pink Edition</h5>
+                                            <p class="card-text small">
+                                                Diseño de estilo jersey deportivo con estética rusa y detalles en llamas. 
+                                                Una pieza audaz con un contraste de color único para un estilo urbano.
+                                            </p>
+                                            <p class="fw-bold text-success text-center">$550.00 MXN</p>
+                                            <button class="btn btn-sm btn-outline-dark" 
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-html="true" 
+                                                    data-bs-title="Ficha Técnica" 
+                                                    data-bs-content="<ul>
+                                                                            <li>SKU:JER-ACM-MIL14</li>
+                                                                            <li>100% Poliéster (Tecnología deportiva)</li>
+                                                                            <li>Lavar a mano, no usar secadora</li>
+                                                                        </ul>">
+                                                Detalles
+                                            </button>
+                                            <p class="mb-1 fw-bold text-center small mt-2">Selecciona talla.</p>
+                                            <div class="btn-group mb-3" role="group">
+                                                <input type="radio" class="btn-check" name="tallas-pm15" id="chpm-15" checked>
+                                                <label class="btn btn-outline-dark btn-sm" for="chpm-15">CH</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm15" id="mpm-15">
+                                                <label class="btn btn-outline-dark btn-sm" for="mpm-15">M</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm15" id="gmp-15">
+                                                <label class="btn btn-outline-dark btn-sm" for="gmp-15">G</label>
+                                            </div>
+                                            <p class="mb-1 fw-bold text-center small mt-1">Selecciona cantidad.</p>
+                                            <div class="btn-group btn-group-sm" role="group">
+                                                <button type="button" class="btn btn-outline-danger">-</button>
+                                                <button type="button" class="btn btn-outline-dark btn-static-hover">1</button>
+                                                <button type="button" class="btn btn-outline-success">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="../imagenes/pmlh16.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body d-flex flex-column mt-3">
+                                            <h5 class="card-title">Sudadera Horror Never Die Dracula</h5>
+                                            <p class="card-text small">
+                                                Gráfico de alto impacto con estética de horror clásico. 
+                                                Una pieza esencial con un diseño oscuro y detallado para un look urbano extremo.
+                                            </p>
+                                            <p class="fw-bold text-success text-center">$420.00 MXN</p>
+                                            <button class="btn btn-sm btn-outline-dark" 
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-html="true" 
+                                                    data-bs-title="Ficha Técnica" 
+                                                    data-bs-content="<ul>
+                                                                            <li>SKU:LSL-WIN-GRY15</li>
+                                                                            <li>100% Algodón</li>
+                                                                            <li>Lavar del revés en frío</li>
+                                                                        </ul>">
+                                                Detalles
+                                            </button>
+                                            <p class="mb-1 fw-bold text-center small mt-2">Selecciona talla.</p>
+                                            <div class="btn-group mb-3" role="group">
+                                                <input type="radio" class="btn-check" name="tallas-pm16" id="chpm-16" checked>
+                                                <label class="btn btn-outline-dark btn-sm" for="chpm-16">CH</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm16" id="mpm-16">
+                                                <label class="btn btn-outline-dark btn-sm" for="mpm-16">M</label>
+                                                <input type="radio" class="btn-check" name="tallas-pm16" id="gmp-16">
+                                                <label class="btn btn-outline-dark btn-sm" for="gmp-16">G</label>
+                                            </div>
+                                            <p class="mb-1 fw-bold text-center small mt-1">Selecciona cantidad.</p>
+                                            <div class="btn-group btn-group-sm" role="group">
+                                                <button type="button" class="btn btn-outline-danger">-</button>
+                                                <button type="button" class="btn btn-outline-dark btn-static-hover">1</button>
+                                                <button type="button" class="btn btn-outline-success">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="btn-toolbar mt-3 mb-3 justify-content-center" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group me-2" role="group" aria-label="First group">
+            <a href="../views/playerash.html" class="btn btn-outline-secondary">1</a>
+            <a href="../views/playerash2.html" class="btn btn-outline-secondary">2</a>
+            </div>
+    </div>
+    <footer class="cierre">
+        <div class="container">
+            <div class="row">
+                <div class="col ps-5">
+                        <img class="logo" src="../imagenes/logoblanco.png" alt="">
+                </div>
+                <div class="col centro pt-5">
+                    <p>ALT F4 // EST. 2026</p>
+                    <p>COPYRIGHT © 2026 - ALL RIGHTS RESERVED</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../java/funcionesJava.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+            const tooltipList = [...tooltipTriggerList].map(el => new bootstrap.Tooltip(el));
+            const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+            const popoverList = [...popoverTriggerList].map(el => new bootstrap.Popover(el));
+        });
+    </script>
+</body>
+</html>
